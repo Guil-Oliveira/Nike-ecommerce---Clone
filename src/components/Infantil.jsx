@@ -1,13 +1,13 @@
 import React from 'react'
 import Footer from './Footer';
 
-export const Masculino = () => {
+const Infantil = () => {
     return (
         <div>
-            Masculino page
+            Infantil page
             <Footer/>
         </div>
     )
 }
 
-export default Masculino;
+export default Infantil;

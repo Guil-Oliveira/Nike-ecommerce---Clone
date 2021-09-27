@@ -1,17 +1,18 @@
 
-.cart{
-    width: 28px;
+.cart{ 
+    width: 20px;
   }
   
   .header{
+    
       justify-content: space-between;
       align-items: center;
-      padding: 10px 40px;
+      margin: 5px 40px;
       display: flex;
       z-index: -99;
   }
   .header h1:hover{
-      color: #FF9900;
+      color: #EF3E1D;
       transition: .5s;
       -webkit-transition: .5s;
       -moz-transition: .5s;
@@ -24,11 +25,13 @@
   }
   
   .header li{
+    font-size: 15px;
     margin: 0 10px;
+    font-weight: bold;
   }
   
   .header li:hover{
-    color: #FF9900;
+    color: #8d8d8d;
     transition: .5s;
     -webkit-transition: .5s;
     -moz-transition: .5s;
@@ -38,17 +41,92 @@
   
   .header b{
     position: absolute;
-    width: 15px;
-    height: 18px;
+    width: 14px;
+    height: 15px;
     text-align: center;
-    background-color: #d39333;
+    background-color: #EF3E1D;
     color: #ffffff;
     border-radius: 40px;
     -webkit-border-radius: 40px;
     -moz-border-radius: 40px;
     -ms-border-radius: 40px;
     -o-border-radius: 40px;
-    top: 5px;
+    top: 18px;
     right: 32px;
-    z-index: -99;
+    z-index: 1;
+    font-size: 10px;
+    padding: 2px 4px;
+  }
+  .logo{
+   width: 54px;
+  }
+ 
+  .login:hover{
+    color: #000;
+  }
+  .menu{
+    display: none;
+    position: absolute;
+    width: 22px;
+  }
+
+  .close{
+    position: absolute;
+    width: 20px;
+    right: 20px;
+    top: 6px;
+  }
+  .nav{
+    display: flex;
+  }
+
+  .nav p{
+    padding-right: 15px;
+    color: #8D8D8D;
+  }
+  .nav p:hover{
+    color: #000;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+
+  @media (max-width: 768px) {
+
+    .header{
+      margin-top: 10px;
+    }
+
+    .header ul{
+      position: absolute;
+      top: -400px;
+      left: 0px;
+      display: grid;
+      background-color: #EF3E1D;
+      padding: 10px 120px 40px 10px;
+    }
+
+    .header li{
+      padding: 10px 0;
+      font-size: 32px;
+    }
+    .logo{
+      display: none;
+    }
+    .cart{
+      top: 10px;
+      right: 50px;
+    }
+    .menu{
+      display: flex;
+    }
+    .header b{
+      top: 5px;
+    }
+    .modal{
+        display: flex;
+    }
   }

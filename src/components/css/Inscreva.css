@@ -1,0 +1,85 @@
+.inscreva aside{
+    margin: 40px auto;
+    text-align: center;
+}
+
+.inscreva h1{
+    font-size: 28px;
+}
+
+#name{
+    width: 380px;
+    height: 38px;
+    margin: 10px 0 0 0;
+    border: 1px solid #8d8d8d8f;
+    color: #8d8d8d8f;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+#sobrenome{ 
+    width: 380px;
+    height: 38px;
+    margin: 10px 0 0 0;
+    border: 1px solid #8d8d8d8f;
+    color: #8d8d8d8f;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+#aniversario{
+    width: 380px;
+    height: 38px;
+    margin: 10px 0 0 0;
+    border: 1px solid #8d8d8d8f;
+    color: #8d8d8d8f;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.inscreva p{
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 15px;
+}
+
+#paises{
+    width: 380px;
+    height: 38px;
+    margin: 10px 0 0 0;
+    border: 1px solid #8d8d8d8f;
+    color: #8d8d8d8f;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.lb{
+    width: 20%;
+    margin: 40px;
+}
+
+.inscreva b{
+    text-decoration-line: underline;
+    -moz-text-decoration-line: underline;
+}

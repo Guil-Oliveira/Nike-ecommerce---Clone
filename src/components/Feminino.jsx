@@ -1,13 +1,14 @@
 import React from 'react'
 import Footer from './Footer';
 
-export const Masculino = () => {
+const Feminino = () => {
     return (
         <div>
-            Masculino page
+            Feminino page
+
             <Footer/>
         </div>
     )
 }
 
-export default Masculino;
+export default Feminino;

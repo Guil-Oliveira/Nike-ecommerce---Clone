@@ -1,0 +1,63 @@
+.login aside{
+    margin: 80px auto;
+    text-align: center;
+}
+
+.login h1{
+    font-size: 28px;
+}
+.formulario{
+    text-align: center;    /* essa declaração sozinha fez a centralização */
+    margin: 0 auto;
+}
+
+#email-Login{
+    width: 380px;
+    height: 38px;
+    margin: 20px 0 0 0;
+    border: 1px solid #8d8d8d8f;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    font-size: 18px;
+    padding-left: 10px;
+    color: #8d8d8d8f;
+}
+
+#senha-Login{
+    width: 380px;
+    height: 38px;
+    margin: 10px 0 0 0;
+    border: 1px solid #8d8d8d8f;
+    color: #8d8d8d8f;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.formulario p{
+    font-size: 12px;
+    margin-top: 30px;
+    line-height: 15px;
+}
+
+.formulario b{
+    text-decoration-line: underline;
+    -moz-text-decoration-line: underline;
+}
+.buttonLogin{
+    margin-top: 20px;
+    width: 380px;
+    height: 38px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 18px;
+}
