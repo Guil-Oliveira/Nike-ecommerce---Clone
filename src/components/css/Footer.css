@@ -1,18 +1,14 @@
 footer{
     overflow: hidden;
-    position: absolute;
+    position: relative;
     width: 100vw;
     height: 100px;
     background-color: #111111;
     bottom: 0px;
-    left: 0;
+    left: 0px;
     padding: 25px 0 0 80px;
-    border-radius: 15px 15px 0px 0px;
-    -webkit-border-radius: 15px 15px 0px 0px;
-    -moz-border-radius: 15px 15px 0px 0px;
-    -ms-border-radius: 15px 15px 0px 0px;
-    -o-border-radius: 15px 15px 0px 0px;
     display: flex;
+    margin: 60px 0 0 0;
 }
 
 .logo{

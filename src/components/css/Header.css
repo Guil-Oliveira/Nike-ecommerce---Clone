@@ -2,6 +2,10 @@
 .cart{ 
     width: 20px;
   }
+
+  .bb{
+    font-size: 12px;
+  }
   
   .header{
     
@@ -51,7 +55,7 @@
     -moz-border-radius: 40px;
     -ms-border-radius: 40px;
     -o-border-radius: 40px;
-    top: 18px;
+    top: 6px;
     right: 32px;
     z-index: 1;
     font-size: 10px;
@@ -97,15 +101,14 @@
   @media (max-width: 768px) {
 
     .header{
-      margin-top: 10px;
+      margin-top: 30px;
     }
 
     .header ul{
       position: absolute;
       top: -400px;
       left: 0px;
-      display: grid;
-      background-color: #EF3E1D;
+      display: visible;
       padding: 10px 120px 40px 10px;
     }
 
@@ -117,14 +120,16 @@
       display: none;
     }
     .cart{
+      width: 28px;
       top: 10px;
       right: 50px;
     }
     .menu{
+      width: 28px;
       display: flex;
     }
     .header b{
-      top: 5px;
+      top: 22px;
     }
     .modal{
         display: flex;

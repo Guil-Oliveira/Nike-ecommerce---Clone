@@ -281,7 +281,7 @@ const Inscreva = () => {
                     <label htmlFor="large" className="lb">
                     <input type="radio" name="size" id="large" required/>
                             Feminino</label> 
-                            <p>Ao fazer login, você concorda com a <Link to="/politica-de-privacidade"><b>Política de privacidade</b></Link> e com os <br /> <Link to="/Termos-de-uso"><b>Termos de uso</b></Link> do Nike.com.</p>
+                            <p>Ao fazer login, você concorda com a <Link to="/politica-de-privacidade"><b className="bb">Política de privacidade</b></Link> e com os <br /> <Link to="/Termos-de-uso"><b className="bb">Termos de uso</b></Link> do Nike.com.</p>
                     <button className="buttonLogin">ENTRAR</button> 
                 </form>
                     

@@ -6,7 +6,7 @@ import Close from '../images/times-solid.svg';
 import Logo from '../images/nike_32px.svg'
 
 
-const Modal = () => {
+const Modal = ({onModal = () => {}}) => {
 
     return (
         <div className="modal-pt">
@@ -16,9 +16,8 @@ const Modal = () => {
                     <Link to="/"><li>HOME</li></Link>
                     <Link to="/feminino"><li>FEMININO</li></Link>
                     <Link to="/masculino"><li>MASCULINO</li></Link>
-                    <Link to="/infantil"><li>INFANTIL</li></Link>
-                    <Link to="/ajuda"><li>AJUDA</li></Link>
-                    <img src={Close} alt="Botão de fechar" className="close" />
+                    <Link to="/sobreMim"><li>SOBRE MIM</li></Link>
+                    <img src={Close} alt="Botão de fechar" className="close" onClick={onModal} />
                 </ul>                  
             </aside>
         </div>

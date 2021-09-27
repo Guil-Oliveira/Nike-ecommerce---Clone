@@ -1,16 +1,26 @@
 
-.sobre{
+.foto{
+    position: relative;
     margin: 40px 80px;
+    height: 300px;
+}
+
+.gif{
+    position: absolute;
+    width: 120px;
+    top: 475px;
+    right: 40px;
+    z-index: 99;
 }
 
 .me{
     width: 248px;
     height: 248px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
 }
 
 .foto{
@@ -29,6 +39,7 @@
 
 .git{
     font-size: 20px;
+    margin-bottom: 40px;
 }
 
 .git a{
@@ -42,9 +53,18 @@
 }
 
 .text1{
+    margin: 0 80px;
     text-align: justify;
     width: 90%;
 }
 .dev{
     margin: 10px 0 0 40px;
+}
+
+@media (max-width: 768px) {
+
+    .foto{
+        margin: 40px 40px;
+    }
+
 }

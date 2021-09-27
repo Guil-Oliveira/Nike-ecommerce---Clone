@@ -14,7 +14,7 @@ const Cart = ({onClose = () => {}}) => {
                 </div>
                 <h2>SEU CARRINHO ESTÁ VAZIO</h2>
                 <p>Faça uma busca pelo seu produto.</p>
-                <Link to="/"><button onClick={onClose}>Continuar Comprando</button></Link>
+                <button onClick={onClose}>Continuar Comprando</button>
             </aside>
         </div>
     )

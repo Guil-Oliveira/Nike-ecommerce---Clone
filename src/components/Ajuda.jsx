@@ -5,9 +5,12 @@ import { Link } from 'react-router-dom';
 import Me from '../images/me.jpeg';
 import Footer from './Footer';
 
-export const Ajuda = () => {
+export const Ajuda = (props) => {
+  
+    console.log();
     return (
         <div className="sobre">
+            <img src="https://freight.cargo.site/t/original/i/27cf0a6706f822322b54b04dd46bc3d96789b19bf34ee971963178d5b860be7c/MAXINE_WALKING_AM90.gif" alt="" className="gif"/>
            <aside className="foto">
                <img src={Me} alt="Minha Foto ( criador )" className="me" />
                <div className="text">
@@ -17,7 +20,7 @@ export const Ajuda = () => {
            </aside>
            <div className="text1">
                 <p>Aqui está meu Portifolio: </p>
-                <p className="git">E meu Github:   <a target="_blank" href="https://github.com/Azaeell">github.com/Azaeell</a></p>
+                <p className="git">E meu Github:<a target="_blank" href="https://github.com/Azaeell">github.com/Azaeell</a></p>
             </div>
             <Footer />
         </div>

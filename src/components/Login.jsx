@@ -15,9 +15,9 @@ const Login = () => {
                     <input type="email" name="email" id="email-Login" placeholder="Endereço de e-mail" required/> <br /></label>
                 <label htmlFor="">
                     <input type="password" name="senha" id="senha-Login" placeholder="Senha" required /></label>
-                    <p>Ao fazer login, você concorda com a <Link to="/politica-de-privacidade"><b>Política de privacidade</b></Link> e com os <br /> <Link to="/Termos-de-uso"><b>Termos de uso</b></Link> do Nike.com.</p>
+                    <p>Ao fazer login, você concorda com a <Link to="/politica-de-privacidade"><b className="bb">Política de privacidade</b></Link> e com os <br /> <Link to="/Termos-de-uso"><b className="bb">Termos de uso</b></Link> do Nike.com.</p>
                     <button className="buttonLogin">ENTRAR</button>
-                    <p>Não está registrado? <Link to="/inscreva-se"><b>Inscreva-se</b></Link>.</p>
+                    <p>Não está registrado? <Link to="/inscreva-se"><b className="bb">Inscreva-se</b></Link>.</p>
                 </form>
             </aside>                 
         </div>
