@@ -1,6 +1,5 @@
 import React from 'react';
 import './css/Ajuda.css';
-import { Link } from 'react-router-dom';
 
 import Me from '../images/me.jpeg';
 import Footer from './Footer';
@@ -20,7 +19,7 @@ export const Ajuda = (props) => {
            </aside>
            <div className="text1">
                 <p>Aqui está meu Portifolio: </p>
-                <p className="git">E meu Github:<a target="_blank" href="https://github.com/Azaeell">github.com/Azaeell</a></p>
+                <p className="git">E meu Github:<a href="https://github.com/Azaeell" target="_blank" rel="noopener noreferrer" >github.com/Azaeell</a></p>
             </div>
             <Footer />
         </div>

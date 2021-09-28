@@ -5,8 +5,9 @@ import Footer from './Footer';
 const Feminino = () => {
     return (
         <div>
+            
             <CardFeminino />
-            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2f5b5f79908773.5cd1b5d75a77b.gif" alt="" className="gif2"/>
+            <img src="https://media0.giphy.com/media/J60es53F7kGzoRKthW/giphy.gif?cid=6c09b952fvccvziou2mkw8hnpje781ioytnna8yvwtaunbbd&rid=giphy.gif&ct=s" alt="" className="gif2"/>
             <Footer/>
         </div>
     )

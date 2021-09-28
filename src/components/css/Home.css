@@ -1,0 +1,32 @@
+.shoes{
+    width: 588px;
+    margin: 0px 0 80px 360px;
+}
+.backshoe{
+  top: 130px;
+  left: 420px;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background-color: #a5a5a5;
+  filter: blur(2px);
+  opacity: 10%;
+  z-index: -99;
+  border-radius: 400px;
+  -webkit-border-radius: 400px;
+  -moz-border-radius: 400px;
+  -ms-border-radius: 400px;
+  -o-border-radius: 400px;
+  -webkit-filter: blur(2px);
+
+}
+
+.conheça{
+  position: absolute;
+  left: 320px;
+  top: 400px;
+  color: #fff;
+  font-size: 82px;
+  background-color: #000;
+  padding: 20px 40px;
+}

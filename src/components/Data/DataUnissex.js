@@ -33,7 +33,7 @@ const Data = [
         },
         {
             id:"4",
-            name:"Nike KD14 Unissex",
+            name:"Nike KD14 Lorem Unissex",
             descrição: "Kevin Durant espreita pelas quadras, esperando o momento certo para dar o bote e despistar a defesa. O KD14 foi desenvolvido para ajudar jogadores versáteis e implacáveis, como KD, a se sentirem frescos durante todo o jogo. A tela multicamadas e a alça no médio pé ajudam a reduzir os movimentos do pé no interior dos tênis. O amortecimento Zoom Air de comprimento total e a espuma Cushlon proporcionam impulso reativo para um desempenho duradouro.",
             image: "https://images.lojanike.com.br/500x500/produto/tenis-nike-kd14-unissex-CW3935-001-1.jpg",
             cor: "Preto",
@@ -41,7 +41,7 @@ const Data = [
         },
         {
             id:"5",
-            name:"Nike PG 5 Unissex",
+            name:"Nike PG 5 Lorem Unissex",
             descrição: "Paul George tem um estilo de jogo estável, suave e confiável. Ele é paciente, mas está sempre bem posicionado para fazer o passe extra, cortar a pista ou emendar um salto. O PG 5 combina o perfil baixo e ágil que Paul adora com o amortecimento flexível Nike Air Strobel. A unidade Air de comprimento total é costurada diretamente na parte de cima, trazendo o amortecimento macio e elástico debaixo do pé, perfeito para proporcionar ao PG uma sensação de andar nas nuvens.",
             image: "https://images.lojanike.com.br/500x500/produto/tenis-nike-pg-5-unissex-CW3143-301-1-11629381197.jpg",
             cor: "Verde",
@@ -57,7 +57,7 @@ const Data = [
         },
         {
             id:"7",
-            name:"Nike SB Zoom Stefan Janoski RM Unissex",
+            name:"Nike SB Zoom Stefan RM Unissex",
             descrição: "O Nike SB Zoom Stefan Janoski RM combina um visual minimalista com um caimento moderno. Ele foi atualizado com uma palmilha macia e uma sola flexível para um melhor contato com o shape logo de cara.",
             image: "https://images.lojanike.com.br/860x860/produto/tenis-nike-sb-zoom-stefan-janoski-rm-unissex-AQ7475-801-1.jpg",
             cor: "Rosa",

@@ -18,6 +18,7 @@ import Cart from './components/Cart';
 import Inscreva from './components/Inscreva';
 import Main from './components/Main.jsx';
 import Masculino from './components/Masculino';
+import CardUni from './components/CardUni';
 
 
 
@@ -57,6 +58,7 @@ function App() {
             <Route path="/masculino" exact component={Masculino}/>
             <Route path="/loginInscreva" exact component={Login}/>
             <Route path="/inscreva-se" component={Inscreva}/>
+            <Route path="/" exact component={CardUni}/>
           </Switch>
       </div>      
     </Router>

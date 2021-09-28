@@ -1,6 +1,5 @@
 import React from 'react';
 import './css/Cart.css';
-import { Link } from 'react-router-dom';
 
 import Close from '../images/times-solid copy.svg';
 

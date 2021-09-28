@@ -10,6 +10,7 @@ const CardFeminino = () => {
     
         return (
             <div className="card">
+            <h1 className="voce">VOÇÊ É MAIS QUE UM <b className="padrao">PADRÃO</b></h1>
                 <section>{femininoSlice.map(item => {
                     return  <aside className="produto">
                             <img src={item.image} alt="" />

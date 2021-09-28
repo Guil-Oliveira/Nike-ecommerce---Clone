@@ -1,7 +1,20 @@
 .card{
     margin: 40px 40px;
 }
+.voce{
+    text-align: center;
+    font-size: 52px;
+    padding: 20px 40px;
+    background-color: #000;
+    color: #fff;
+    margin: 0 20px 20px 20px;
+}
+.padrao{
+    color: #F9D5A7;
+    font-size: 52px;
+    font-weight: bold;
 
+}
 .gif1{
     position: absolute;
     width: 170px;
@@ -13,10 +26,10 @@
 .gif2{
     position: absolute;
     right: 0px;
-    width: 240px;
-    height: 320px;
-    top: 1844px;
+    width: 100px;
+    top: 2216px;
     object-fit: cover;
+    z-index: 99;
 }
 .produto:hover{
     margin: 0px 10px 5px 10px;
