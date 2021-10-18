@@ -5,7 +5,7 @@ import './App.css';
 
 import Modal from './components/Modal.jsx';
 
-import Logo from './images/nike_32px.svg';
+import Logo from './images/nike_32pxc.svg';
 import Menu from './images/bars-solid.svg';
 import CartImg from './images/shopping-cart-solid.svg';
 
@@ -22,7 +22,7 @@ import CardUni from './components/CardUni';
 
 
 
-function App() {
+function App(props) {
   
   const [modal, setModal] = useState(false);
   const [visible, setVisible] = useState(false);
@@ -47,7 +47,7 @@ function App() {
                     <b>0</b>   
             </aside> 
         </header> 
-    
+   
         <Main />               
             {visible ? (<Cart onClose={() => setVisible(false)} />) : null}
             {modal ? (<Modal onModal={() => setModal(false)}/>) : null}
@@ -60,7 +60,7 @@ function App() {
             <Route path="/inscreva-se" component={Inscreva}/>
             <Route path="/" exact component={CardUni}/>
           </Switch>
-      </div>      
+      </div>   
     </Router>
 
   )
